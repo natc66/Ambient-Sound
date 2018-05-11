@@ -80,3 +80,8 @@ p a:hover {
 footer {
     margin-bottom: 30px;
 }
+
+img {
+    width: 300px;
+    height: auto;
+}
