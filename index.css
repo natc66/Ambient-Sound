@@ -2,6 +2,7 @@
 
 body {
     font-family: "PT Sans";
+    width: 80%;
 }
 
 header {
@@ -34,8 +35,8 @@ header {
     color: white;
     font-size: 32pt;
     font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
