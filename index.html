@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <title>Relaxation VR</title>
+            <link href="index.css" rel="stylesheet" type="text/css" />
+        </head>
+        <body>
+            <header>
+                <a href="index.html" class="navigation" id="current">Sounds</a>
+                <a href="about.html" class="navigation">About</a>
+            </header>
+            
+            <section id="banner">
+                <h1>Ambient Sounds Survey</h1>
+            </section>
+            
+            <main>
+                    <h3>Take This Survey!</h3>
+                    <p>
+                        We're interested in your honest opinions about ambient sounds 
+                        in regards to relaxation and stress. Your responses will be 
+                        anonymous, as we aren't collecting names or contact information. 
+                        Our team is focusing on High Schooler's opinions, which is why 
+                        we ask for your age. Please be careful when listening to these 
+                        sounds as their volume varies.
+                    </p>
+                    <p>
+                        Please enter your age, at the top of this survey. After listening 
+                        to the sound, please select how relaxing or stressful you found 
+                        this sound.
+                    </p>
+                <form action="https://formspree.io/natalie.michelle.chow@gmail.com" method="post">
+                        <h3>General Information</h3>
+                        <p id="info">
+                            <span class="star">*</span> indicates a required field
+                        </p>
+                        <p>
+                            Age<span class="star">*</span>
+                        </p>
+                        <textarea rows="1" cols="15" id="age" name="age" required></textarea>
+
+                        <h3>Sound 1</h3>
+                        <audio controls>
+                            <source src="https://relaxationvr.weebly.com/files/theme/guitar.wav" type="audio/wav">
+                        </audio>                
+                        <p>This sound was...<span class="star">*</span></p>
+                        <select name="sound1" required>
+                            <option disabled selected></option>
+                            <option class="vr">Very Relaxing</option>
+                            <option class="sr">Somewhat Relaxing</option>
+                            <option class="n">Neither Relaxing nor Stressful</option>
+                            <option class="ss">Somewhat Stressful</option>
+                            <option class="vs">Very Stressful</option>
+                        </select>
+                        <p>
+                            Additional Comments?
+                        </p>
+                        <textarea rows="2" cols="100" name="comment1"></textarea>
+
+                        <h3>Sound 2</h3>
+                        <audio controls>
+                            <source src="https://relaxationvr.weebly.com/files/theme/rain.wav" type="audio/wav">
+                        </audio>                
+                        <p>This sound was...<span class="star">*</span></p>
+                        <select name="sound2" required>
+                            <option disabled selected></option>
+                            <option class="vr">Very Relaxing</option>
+                            <option class="sr">Somewhat Relaxing</option>
+                            <option class="n">Neither Relaxing nor Stressful</option>
+                            <option class="ss">Somewhat Stressful</option>
+                            <option class="vs">Very Stressful</option>
+                        </select>
+                        <p>
+                            Additional Comments?
+                        </p>
+                        <textarea rows="2" cols="100" name="comment2"></textarea>
+                    </section>
+    
+                    <section id="3">
+                        <h3>Sound 3</h3>
+                        <audio controls>
+                            <source src="https://relaxationvr.weebly.com/files/theme/waves.m4a" type="audio/mpeg">
+                        </audio>                
+                        <p>This sound was...<span class="star">*</span></p>
+                        <select name="sound3" required>
+                            <option disabled selected></option>
+                            <option class="vr">Very Relaxing</option>
+                            <option class="sr">Somewhat Relaxing</option>
+                            <option class="n">Neither Relaxing nor Stressful</option>
+                            <option class="ss">Somewhat Stressful</option>
+                            <option class="vs">Very Stressful</option>
+                        </select>
+                        <p>
+                            Additional Comments?
+                        </p>
+                        <textarea rows="2" cols="100" name="comment3"></textarea>
+                    </section>
+
+                    <section id="4">
+                        <h3>Sound 4</h3>
+                        <audio controls>
+                            <source src="https://relaxationvr.weebly.com/files/theme/song.m4a" type="audio/mpeg">
+                        </audio>                
+                        <p>This sound was...<span class="star">*</span></p>
+                        <select name="sound4" required>
+                            <option disabled selected></option>
+                            <option class="vr">Very Relaxing</option>
+                            <option class="sr">Somewhat Relaxing</option>
+                            <option class="n">Neither Relaxing nor Stressful</option>
+                            <option class="ss">Somewhat Stressful</option>
+                            <option class="vs">Very Stressful</option>
+                        </select>
+                        <p>
+                            Additional Comments?
+                        </p>
+                        <textarea rows="2" cols="100" id="age"></textarea>
+                    </section>
+                    
+                    <section id="5">
+                        <h3>Sound 5</h3>
+                        <audio controls>
+                            <source src="https://relaxationvr.weebly.com/files/theme/space.wav" type="audio/wav">
+                        </audio>                
+                        <p>This sound was...<span class="star">*</span></p>
+                        <select name="sound5">
+                            <option disabled selected></option>
+                            <option class="vr">Very Relaxing</option>
+                            <option class="sr">Somewhat Relaxing</option>
+                            <option class="n">Neither Relaxing nor Stressful</option>
+                            <option class="ss">Somewhat Stressful</option>
+                            <option class="vs">Very Stressful</option>
+                        </select>
+                        <p>
+                            Additional Comments?
+                        </p>
+                        <textarea rows="2" cols="100" id="age"></textarea>
+                    </section>
+                    <p id="error" class="star"></p>
+                    <input type="submit" id="submit">
+                </form>
+            </main>
+            <footer></footer>
+            
+        </body>
