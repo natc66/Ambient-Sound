@@ -2,7 +2,6 @@
 
 body {
     font-family: "PT Sans";
-    width: 80%;
 }
 
 header {
@@ -42,6 +41,10 @@ header {
 
 .star {
     color: red;
+}
+
+main {
+    width: 80%;
 }
 
 p {
